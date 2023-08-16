@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test-improvado"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Sharapenkov <ivansharapenkov@gmail.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sortedcontainers = "^2.4.0"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
